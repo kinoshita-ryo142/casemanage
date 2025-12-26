@@ -189,8 +189,8 @@ export default function ReportView() {
               />
               <YAxis />
               <Tooltip
-                formatter={(value) => value.toLocaleString()}
-                labelFormatter={(label) => `${label}`}
+                formatter={(value: any) => (value == null ? "" : value.toLocaleString())}
+                labelFormatter={(label: any) => `${label}`}
               />
               <Legend />
               <Bar dataKey="planned" fill="#3b82f6" name="予算" />
