@@ -383,7 +383,7 @@ function TodoList({ session }: { session: Session }) {
 
   return (
     <>
-      <div className="min-h-screen bg-gradient-to-br from-background to-muted p-8">
+      <div className="min-h-screen bg-linear-to-br from-background to-muted p-8">
         <div className="w-full mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center mb-8">
             <div>

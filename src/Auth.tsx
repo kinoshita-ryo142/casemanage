@@ -30,7 +30,7 @@ export const Auth = () => {
   // 以前はここに signUp のハンドラがありましたが、UIからの新規登録を許可しないため削除しています。
 
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gradient-to-br from-background to-muted">
+    <div className="flex items-center justify-center min-h-screen bg-linear-to-br from-background to-muted">
       <div className="w-full max-w-md p-8 bg-card rounded-lg shadow-lg border border-border">
         <h1 className="text-2xl font-bold text-center mb-2 text-foreground">工数管理システム</h1>
         <p className="text-center text-muted-foreground mb-6">メールアドレスでログイン</p>
